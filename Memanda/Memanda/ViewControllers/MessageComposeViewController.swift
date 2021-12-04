@@ -63,10 +63,9 @@ struct MessageView: UIViewControllerRepresentable {
                 }
             }
             
-//            if let randomNumber = ContactsModel.shared.numbers.randomElement() {
-//                controller.recipients = [randomNumber]
-//            }
-            controller.recipients = ["+55 (51) 8450-3688"]
+            if let randomNumber = ContactsModel.shared.numbers.randomElement() {
+                controller.recipients = [randomNumber]
+            }
         }
         return controller
     }

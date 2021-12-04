@@ -36,7 +36,7 @@ struct AnimatedRouletteView: View {
     
     var body: some View {
         ZStack(alignment: .center) {
-            Image("Roulette")
+            Image("roulette")
                 .frame(width: getWidth(for: 321.84), height: rouletteHeight)
                 .rotationEffect(Angle.degrees(isRotated ? degree : 0))
                 .animation(animation)
