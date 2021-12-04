@@ -1,5 +1,5 @@
 # Memanda
-Roleta russa de memes hehe
+App de roleta russa de memes
 
 Desenvolvedora: Thaís Fernandes
 
